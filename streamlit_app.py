@@ -6,7 +6,7 @@ import json
 st.title('Las 4 mascostas de ASIR')
 st.write('Aplicación de clasificación de mascotas')
 
-st.image("img/mascotas-preferidas-espanoles.jpg", use_container_width=True)
+st.image("IMG/mascotas-preferidas-espanoles.jpg", use_container_width=True)
 
 # Carga el modelo entrenado y las asignaciones para el color de ojos y el largo del pelo
 model = joblib.load("pets_model.joblib")
